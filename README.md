@@ -1,5 +1,5 @@
 # Huskylens Line Tracking Car
-Line Tracking Car using Arduino and Huskylends Board
+Line Tracking Car using Arduino and Huskylens Board
 
 <img src="https://github.com/user-attachments/assets/48bc1149-024b-4b59-a28c-7bf4ee14d11e" width="272">
 <img src="https://github.com/user-attachments/assets/ce90f317-c7d4-4f08-b467-9794d9d8a392" width="272">
@@ -9,8 +9,8 @@ Line Tracking Car using Arduino and Huskylends Board
 ![huskylens-line-tracking-car_bb](https://github.com/user-attachments/assets/f2197aad-0e55-4a8f-8209-4f984e901ebd)
 
 ## Components
-* 01 - 2WD Car Chassis
-* 02 - DC Motors (3v - 6v)
+* 01 - 2WD or 4WD car chassis
+* 02 - DC motors (3v - 6v)
 * 02 - Wheels
 * 01 - Arduino UNO
 * 01 - [L293D Adafruit Motor Shield (v1)](https://www.aliexpress.us/item/3256806925995549.html)
@@ -20,7 +20,7 @@ Line Tracking Car using Arduino and Huskylends Board
 ## About PlatformIO IDE
 This is a [Platform IO IDE](https://platformio.org/platformio-ide) project coded in C++. 
 
-Platform IO is a plugin for Microsoft Virtual Studio Code. It is a more robust IDE compared to official Arduino IDE. It also allows us to easily create our own private libraries and use a more object oriented code.
+Platform IO is a plugin for Microsoft Virtual Studio Code. It is a more robust IDE compared to official Arduino IDE which makes easy to create our own private libraries and use a better object-oriented design.
 
 ## About the code
 The parameters can be customized in the `main.cpp` 
@@ -33,7 +33,7 @@ The parameters can be customized in the `main.cpp`
 ```
 
 ## About Car Chassis
-This project was optimized for a 2WD car chassis. But a 4WD chassis by changing the motor and PID parameters.
+This project was optimized for a 2WD car chassis. But a 4WD chassis can also be used by changing the motor speed and PID parameters.
 
 ### Reference 1 (Brazil):
 <img src="https://github.com/user-attachments/assets/a9df5a34-d674-420d-8a0a-e778307f751a" width="300">
@@ -55,6 +55,6 @@ https://www.aliexpress.us/item/3256801542172576.html
 I recommend to use high quality 18650 batteries (3.7v - 4.2v, 2200mAh, at least 2C of discharge rate).
 
 ## Fritzing file
-The eletronic schematic was created in the [Fritzing](https://fritzing.org/) software and can be downloaded at
+The electronic schematic was created in the [Fritzing](https://fritzing.org/) software and can be downloaded at
 * [huskylens-line-tracking-car.zip](https://github.com/user-attachments/files/16801611/huskylens-line-tracking-car.zip)
 
